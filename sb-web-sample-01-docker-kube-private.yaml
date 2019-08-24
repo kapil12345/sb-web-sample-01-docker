@@ -34,8 +34,8 @@ spec:
     spec:
       containers:
       - name: sb-web-sample-01-docker
-        image: qooacr01.azurecr.io/sb-web-sample-01-docker
+        image: javaacr01.azurecr.io/javaacr01:6
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: qooacr01
+      - name: javaacr01
